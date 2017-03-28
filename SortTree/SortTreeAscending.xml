@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<?EXCO creator="Excosoft XML Client" version="5.2"?>
+<?EXCO #STYLE_FLAVOUR="Default" #PRINTSTYLE="Default"?>
+<!DOCTYPE document PUBLIC "-//Excosoft AB//DTD XML Flex DTD 1.2//EN" "http://dtd.excosoft.se/flex/1.2/flex-1.2.dtd" [
+]>
+<document class="normal" xml:lang="en">
+<part class="frontmatter">
+<maintitle>SortTree test file</maintitle>
+</part>
+<part class="body" id="body">
+<paragraph>This document contains text to be sorted. Even this level below the part element could be sorted.</paragraph>
+<section id="section_with_subsections">
+<title>Complete test</title>
+<paragraph>I am 15 years old</paragraph>
+<paragraph>I am 9 years old</paragraph>
+<paragraph>My name is Adam</paragraph>
+<paragraph>My name is ADAM</paragraph>
+<paragraph>MY NAME IS ADAM</paragraph>
+<paragraph>My name is Åke</paragraph>
+<paragraph>My name is george</paragraph>
+<paragraph>My name is GEORGE</paragraph>
+<paragraph>My name is George</paragraph>
+<paragraph>My name is Östen</paragraph>
+<paragraph>My name is ÖSTEN</paragraph>
+<paragraph>This is another paragraph with just one sentence.</paragraph>
+<paragraph>This is a paragraph. It also contains 2 sentences.</paragraph>
+<paragraph>This is a paragraph. It contains 2 sentences.</paragraph>
+<paragraph>This paragraph contains <bold>bold</bold> and <italic>italic</italic> text.</paragraph>
+<paragraph>This paragraph contains <bold><italic>bold and italic</italic></bold> text.</paragraph>
+<paragraph>This <bold>paragraph</bold> contains bold and italic <italic>text</italic>.</paragraph>
+<paragraph>This paragraph does not contain bold and italic text.</paragraph>
+<paragraph>This paragraph does not contain bold and italic text.</paragraph>
+<paragraph>You weigh 104 kilograms</paragraph>
+<paragraph>You weigh 78.5 kilograms</paragraph>
+<paragraph>You weigh 78 kilograms</paragraph>
+<section>
+<title>Subsection one</title>
+<paragraph>Here is a paragraph in subsection one</paragraph>
+</section>
+<section>
+<title>Subsection two</title>
+<paragraph>Here is a paragraph in subsection two</paragraph>
+</section>
+</section>
+<section id="section_with_lang">
+<title>Paragraphs with different case</title>
+<paragraph>My name is Adam</paragraph>
+<paragraph>My name is ADAM</paragraph>
+<paragraph>MY NAME IS ADAM</paragraph>
+<paragraph>My name is Åke</paragraph>
+<paragraph>My name is george</paragraph>
+<paragraph>My name is GEORGE</paragraph>
+<paragraph>My name is George</paragraph>
+<paragraph>My name is Östen</paragraph>
+<paragraph>My name is ÖSTEN</paragraph>
+</section>
+<section id="section_and_para_inline">
+<title>Paragraphs with in-line elements</title>
+<paragraph>This paragraph contains <bold><italic>bold and italic</italic></bold> text.</paragraph>
+<paragraph>This paragraph contains <bold>bold</bold> and <italic>italic</italic> text.</paragraph>
+<paragraph>This <bold>paragraph</bold> contains bold and italic <italic>text</italic>.</paragraph>
+<paragraph>This paragraph does not contain bold and italic text.</paragraph>
+<paragraph>This paragraph does not contain bold and italic text.</paragraph>
+</section>
+<section id="section_with_number">
+<title>Paragraphs with numbers</title>
+<paragraph>I am 15 years old</paragraph>
+<paragraph>I am 9 years old</paragraph>
+<paragraph>You weigh 104 kilograms</paragraph>
+<paragraph>You weigh 78.5 kilograms</paragraph>
+<paragraph>You weigh 78 kilograms</paragraph>
+</section>
+<section id="paragraphs_and_sections">
+<title>Sections and paragraphs</title>
+<paragraph>This is another paragraph with just one sentence.</paragraph>
+<paragraph>This is a paragraph. It also contains 2 sentences.</paragraph>
+<paragraph>This is a paragraph. It contains 2 sentences.</paragraph>
+<section >
+<title>Subsection one</title>
+<paragraph>Here is a paragraph in subsection one</paragraph>
+</section>
+<section>
+<title>Subsection two</title>
+<paragraph>Here is a paragraph in subsection two</paragraph>
+</section>
+</section>
+</part>
+</document>
