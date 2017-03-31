@@ -24,7 +24,7 @@ The tester.java contains four methods to test each case.
 
 
 Default:
-- the default opteration is in ascending order
+- the default operation is in ascending order.
 
 Limitation:
-- The sort method is recursive so the stack  has a limited depth
+- The sort method is recursive so the stack has a limited depth.
